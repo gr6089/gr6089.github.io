@@ -1,0 +1,88 @@
+/* style sheet created by: Farha Orin ISM 5994 */
+
+body {
+	background-color: #FFFF99; 
+}
+
+img {
+	max-width: 100%;
+}
+
+/*Style for Mobile Layout*/
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header {
+	background-color: #FFFFFF;
+	margin-top: 0.2em;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	
+}
+nav ul{
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+}	
+nav li {
+	background-color: #009933;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding:0.4em;
+}
+
+nav li a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.mobile{
+	display: inline;
+}
+.desktop{
+	display: none;
+}
+
+
+
+main{
+	display: block;
+	background-color: #FFFFFF;
+	Font-family: Verdana, Arial, Sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	border-top: solid 0.2em #009933;
+	border-bottom: solid 0.2em #009933;
+}
+
+footer{
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+.tablet{
+	display: none;
+}
+
+.equip{
+	display: none;
+}
+
+
+
+
+
